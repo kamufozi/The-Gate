@@ -566,6 +566,9 @@
   .contents {
     display: contents;
   }
+  .flex {
+    display: flex;
+  }
   .hidden {
     display: none;
   }
@@ -581,6 +584,42 @@
   .table {
     display: table;
   }
+  .h-20 {
+    height: calc(var(--spacing) * 20);
+  }
+  .h-\[20\%\] {
+    height: 20%;
+  }
+  .h-\[20\] {
+    height: 20;
+  }
+  .h-\[30\%\] {
+    height: 30%;
+  }
+  .h-\[40\%\] {
+    height: 40%;
+  }
+  .h-\[40\] {
+    height: 40;
+  }
+  .h-\[50\%\] {
+    height: 50%;
+  }
+  .h-\[70\%\] {
+    height: 70%;
+  }
+  .h-\[70\] {
+    height: 70;
+  }
+  .h-auto {
+    height: auto;
+  }
+  .w-screen {
+    width: 100vw;
+  }
+  .flex-grow {
+    flex-grow: 1;
+  }
   .grow {
     flex-grow: 1;
   }
@@ -593,20 +632,145 @@
   .resize {
     resize: both;
   }
+  .flex-col {
+    flex-direction: column;
+  }
   .border {
     border-style: var(--tw-border-style);
     border-width: 1px;
+  }
+  .border-solid {
+    --tw-border-style: solid;
+    border-style: solid;
+  }
+  .border-black {
+    border-color: var(--color-black);
+  }
+  .border-white {
+    border-color: var(--color-white);
+  }
+  .bg-\[\.\/\] {
+    background-color: ./;
+  }
+  .bg-\[\/\] {
+    background-color: /;
+  }
+  .bg-\[url\] {
+    background-color: url;
+  }
+  .bg-blue-950 {
+    background-color: var(--color-blue-950);
+  }
+  .bg-\[url\(\'\'\)\] {
+    background-image: url('');
+  }
+  .bg-\[url\(\'\.\/\'\)\] {
+    background-image: url('./');
+  }
+  .bg-\[url\(\'\/\'\)\] {
+    background-image: url('/');
+  }
+  .bg-\[url\(\'\/assets\'\)\] {
+    background-image: url('/assets');
+  }
+  .bg-\[url\(\)\] {
+    background-image: url();
+  }
+  .bg-\[url\(\.\/\)\] {
+    background-image: url(./);
+  }
+  .bg-\[url\(\.\/a\)\] {
+    background-image: url(./a);
+  }
+  .bg-\[url\(\.\/assets\)\] {
+    background-image: url(./assets);
+  }
+  .bg-\[url\(\/\)\] {
+    background-image: url(/);
+  }
+  .bg-\[url\(\/ass\)\] {
+    background-image: url(/ass);
+  }
+  .bg-\[url\(\/assets\)\] {
+    background-image: url(/assets);
+  }
+  .bg-\[url\(\/assets\/\)\] {
+    background-image: url(/assets/);
+  }
+  .bg-\[url\(\/assets\/av\)\] {
+    background-image: url(/assets/av);
+  }
+  .bg-\[url\(\/assets\/avian\)\] {
+    background-image: url(/assets/avian);
+  }
+  .bg-\[url\(\/assets\/avian-\)\] {
+    background-image: url(/assets/avian-);
+  }
+  .bg-\[url\(\/assets\/avian-bird\)\] {
+    background-image: url(/assets/avian-bird);
+  }
+  .bg-\[url\(\/assets\/avian-bird-flu\)\] {
+    background-image: url(/assets/avian-bird-flu);
+  }
+  .bg-\[url\(\/assets\/avian-bird-flu\.jpeg\)\] {
+    background-image: url(/assets/avian-bird-flu.jpeg);
+  }
+  .bg-center {
+    background-position: center;
+  }
+  .bg-repeat {
+    background-repeat: repeat;
+  }
+  .p-9 {
+    padding: calc(var(--spacing) * 9);
+  }
+  .py-2 {
+    padding-block: calc(var(--spacing) * 2);
+  }
+  .py-3 {
+    padding-block: calc(var(--spacing) * 3);
+  }
+  .text-2xl {
+    font-size: var(--text-2xl);
+    line-height: var(--tw-leading, var(--text-2xl--line-height));
   }
   .text-3xl {
     font-size: var(--text-3xl);
     line-height: var(--tw-leading, var(--text-3xl--line-height));
   }
+  .text-xl {
+    font-size: var(--text-xl);
+    line-height: var(--tw-leading, var(--text-xl--line-height));
+  }
+  .leading-2 {
+    --tw-leading: calc(var(--spacing) * 2);
+    line-height: calc(var(--spacing) * 2);
+  }
+  .leading-\[26px\] {
+    --tw-leading: 26px;
+    line-height: 26px;
+  }
+  .font-\[1\.6rem\] {
+    --tw-font-weight: 1.6rem;
+    font-weight: 1.6rem;
+  }
+  .font-\[1\.\] {
+    --tw-font-weight: 1.;
+    font-weight: 1.;
+  }
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
   }
+  .font-medium {
+    --tw-font-weight: var(--font-weight-medium);
+    font-weight: var(--font-weight-medium);
+  }
   .break-all {
     word-break: break-all;
+  }
+  .text-white {
+    color: var(--color-white);
   }
   .capitalize {
     text-transform: capitalize;
@@ -715,6 +879,10 @@
   syntax: "*";
   inherits: false;
   initial-value: solid;
+}
+@property --tw-leading {
+  syntax: "*";
+  inherits: false;
 }
 @property --tw-font-weight {
   syntax: "*";
