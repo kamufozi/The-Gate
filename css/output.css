@@ -707,11 +707,20 @@
   .h-screen {
     height: 100vh;
   }
+  .w-100 {
+    width: calc(var(--spacing) * 100);
+  }
   .w-\[30\%\] {
     width: 30%;
   }
   .w-\[30\] {
     width: 30;
+  }
+  .w-\[45\%\] {
+    width: 45%;
+  }
+  .w-\[45\] {
+    width: 45;
   }
   .w-\[50\%\] {
     width: 50%;
@@ -837,6 +846,9 @@
   .bg-\[\/clones\] {
     background-color: /clones;
   }
+  .bg-\[assets\/penn-center-innovation\.jpeg\] {
+    background-color: assets/penn-center-innovation.jpeg;
+  }
   .bg-\[imag\] {
     background-color: imag;
   }
@@ -947,6 +959,9 @@
   }
   .bg-\[url\(\/assets\/avian-bird-flu\.jpeg\)\] {
     background-image: url(/assets/avian-bird-flu.jpeg);
+  }
+  .bg-\[url\(\/assets\/penn-center-innovation\.jpeg\)\] {
+    background-image: url(/assets/penn-center-innovation.jpeg);
   }
   .bg-cover {
     background-size: cover;
