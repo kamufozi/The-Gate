@@ -652,14 +652,56 @@
   .bg-\[\.\/\] {
     background-color: ./;
   }
+  .bg-\[\.\/assets\/avian-bird-flu\.jpeg\] {
+    background-color: ./assets/avian-bird-flu.jpeg;
+  }
   .bg-\[\/\] {
     background-color: /;
+  }
+  .bg-\[\/assets\/avian-bird-flu\.jpeg\] {
+    background-color: /assets/avian-bird-flu.jpeg;
+  }
+  .bg-\[\/clo\] {
+    background-color: /clo;
+  }
+  .bg-\[\/clones\/ima\] {
+    background-color: /clones/ima;
+  }
+  .bg-\[\/clones\] {
+    background-color: /clones;
+  }
+  .bg-\[imag\] {
+    background-color: imag;
+  }
+  .bg-\[img\] {
+    background-color: img;
+  }
+  .bg-\[url\(\)\.\/assets\/avian-bird-flu\.jpeg\] {
+    background-color: url()./assets/avian-bird-flu.jpeg;
+  }
+  .bg-\[url\.\/assets\/avian-bird-flu\.jpeg\] {
+    background-color: url./assets/avian-bird-flu.jpeg;
   }
   .bg-\[url\] {
     background-color: url;
   }
+  .bg-amber-500 {
+    background-color: var(--color-amber-500);
+  }
+  .bg-blue-300 {
+    background-color: var(--color-blue-300);
+  }
+  .bg-blue-600 {
+    background-color: var(--color-blue-600);
+  }
   .bg-blue-950 {
     background-color: var(--color-blue-950);
+  }
+  .bg-\[image\(\.\/assets\/avian-bird-flu\.jpeg\)\] {
+    background-image: image(./assets/avian-bird-flu.jpeg);
+  }
+  .bg-\[url\(\"\.\/assets\/avian-bird-flu\.jpeg\"\)\] {
+    background-image: url("./assets/avian-bird-flu.jpeg");
   }
   .bg-\[url\(\'\'\)\] {
     background-image: url('');
@@ -667,11 +709,20 @@
   .bg-\[url\(\'\.\/\'\)\] {
     background-image: url('./');
   }
+  .bg-\[url\(\'\.\/assets\/avian-bird-flu\.jpeg\'\)\] {
+    background-image: url('./assets/avian-bird-flu.jpeg');
+  }
   .bg-\[url\(\'\/\'\)\] {
     background-image: url('/');
   }
   .bg-\[url\(\'\/assets\'\)\] {
     background-image: url('/assets');
+  }
+  .bg-\[url\(\'\/assets\/avian-bird-flu\.jpeg\'\)\] {
+    background-image: url('/assets/avian-bird-flu.jpeg');
+  }
+  .bg-\[url\(\'assets\'\)\] {
+    background-image: url('assets');
   }
   .bg-\[url\(\)\] {
     background-image: url();
@@ -684,6 +735,9 @@
   }
   .bg-\[url\(\.\/assets\)\] {
     background-image: url(./assets);
+  }
+  .bg-\[url\(\.\/assets\/avian-bird-flu\.jpeg\)\] {
+    background-image: url(./assets/avian-bird-flu.jpeg);
   }
   .bg-\[url\(\/\)\] {
     background-image: url(/);
